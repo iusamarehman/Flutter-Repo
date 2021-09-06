@@ -1,5 +1,38 @@
 void main() {
-  print('Hello, World!');
-print('Hello, usama!');
-// this is main 
+  
+  String studentName = "USAMA REHMAN";
+  int isl = 80;
+  int eng = 0;
+  int maths = 0;
+  int urdu = 70;
+  int pst = 59;
+  
+  int tol = isl+eng+maths+urdu+pst;
+  double p= ( ( tol / 500 )  * 100 ) ;
+  
+  print(studentName);
+          if (p >= 35 && p < 50)
+            {
+                print("Grade is C");
+            }
+            if (p >= 50 && p <= 60)
+            {
+                print("Grade is B");
+            }
+            if (p > 60 && p <= 80)
+            {
+                print("Grade is A");
+            }
+            if (p > 80 && p <= 100)
+            {
+                print("Grade is A+");
+            }
+  print("Marks of Islamiat is $isl ");
+  print("Marks of Islamiat is $eng  ");
+  print("Marks of Islamiat is $maths  ");
+  print("Marks of Islamiat is $urdu  ");
+  print("Marks of Islamiat is $pst");
+  print("Total $tol / 500  ");
+ 
+  
 }
